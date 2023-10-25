@@ -1,0 +1,29 @@
+/* div {
+    background: var(--bs-red);
+    height: 100px;
+    margin-bottom: 20px;
+} */
+
+
+.container-fluid .row div {
+    background-color: rgb(175, 72, 234);
+    border: 5px solid rgb(188, 188, 188);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center ;
+}
+
+.container .row {
+    margin-top: 20px;
+}
+
+.container .row div {
+
+
+    background-color: rgb(222, 222, 222);
+    border: 2px solid rgb(43, 43, 43);
+    color: rgb(64, 149, 191);
+    text-align: center ;
+    padding: 0 50px;
+    height: 400px;
+}
