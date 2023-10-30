@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container text-bg-dark text-center mt-4 p-4 d-flex rounded-4">
+        <p class="h1 text-bg-info rounded-3 p-2">Badges</p>
+        <p class="h1 text-warning p-2">,Progress Bars,</p>
+        <p class="h1 text-primary p-2">Spinners,</p>
+        <p class="h1 text-bg-success rounded-3 p-2">Pagination</p>
+        <p class="h1 text-danger p-2">,list Groups,</p>
+    </div>
+    
+    <div class="container-fluid bg-black bg-opacity-50 mt-5">
+        <p class="h2 text-center text-uppercase text-dark        p-2 ">Badges</p>
+        <div class="row">
+            <div class="col bg-danger p-4">
+                <p class="h4">Contextual Badges</p>
+                <span class="badge bg-dark mt-4">Dark</span>
+                <span class="badge bg-secondary p-2 mt-2">Secondary</span>
+                <span class="badge bg-warning p-3">Warning</span>
+            </div>
+            <div class="col bg-dark p-4 ">
+                <p class="h4 text-bg-light rounded-4 text-center p-1">Pill Badges</p>
+                <span class="badge rounded-pill bg-info p-3 mt-2">Info</span>
+                <span class="badge rounded-pill bg-secondary p-2">Secondary</span>
+                <span class="badge rounded-pill bg-warning p-1">Warning</span>
+            </div>
+            <div class="col bg-info p-4">
+                <p class="h4">Using a badge inside a button :</p>
+                <button type="button" class="btn btn-dark mt-3">
+                    Messages <span class="badge bg-danger">4</span>
+                </button>
+                <button type="button" class="btn btn-danger mt-3">
+                    Notifications <span class="badge bg-dark">7</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-5 bg-dark p-4">
+
+        <h1 class="text-center text-light">Progress Bars</h1>
+
+        <div class="container bg-success p-4 rounded-3 mt-4">
+            <p class="h3 text-light">Basic Progress bar with Labels :</p>
+            <div class="progress">
+                <div class="progress-bar" style="width:55%">55%</div>
+            </div>
+        </div>
+
+        <div class="container bg-success p-4 rounded-3 mt-4">
+            <p class="h3 text-dark"><span class="text-warning">Colored</span> Progress bar with Height :</p>
+            <div class="progress" style="height: 30px;">
+                <div class="progress-bar bg-danger" style="width:76%">76%</div>
+            </div>
+        </div>
+
+        <div class="container bg-black bg-opacity-50 p-4 rounded-3 mt-4">
+            <p class="h3 text-light">Progress bar with <span class="text-danger">Striped :</span></p>
+            <div class="progress" style="height: 20px;">
+                <div class="progress-bar bg-danger progress-bar-striped" style="width:60%">60%</div>
+            </div>
+        </div>
+
+        <div class="container bg-success p-4 rounded-3 mt-4">
+            <p class="h3 text-info">Progress bar with <span class="text-light">Animated :</span></p>
+            <div class="progress" style="height: 35px;">
+                <div class="progress-bar bg-info progress-bar-animated progress-bar-striped" style="width:80%">80%</div>
+            </div>
+        </div>
+
+        <div class="container bg-success p-4 rounded-3 mt-4">
+            <p class="h3">Multiple Progress Bars with <span class="text-light">Colored , striprd and Animated </span>:  </p>
+            <div class="progress">
+                <div class="progress-bar bg-info " style="width:30%">
+                  Warning
+                </div>
+                <div class="progress-bar bg-danger progress-bar-striped" style="width:30%">
+                  Danger
+                </div>
+                <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width:30%">
+                  Free Space
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid p-5 bg-dark mt-1">
+        <h1 class="text-center text-light p-3">Spinners</h1>
+        <div class="container">
+            <div class="row gap-2 mt-5">
+                <div class="col bg-danger rounded-5 p-4">
+                    <p class="h4">Bordar Spinners :</p>
+                    <div class="spinner-border m-4"></div>
+                </div>
+                <div class="col bg-danger rounded-5 p-4">
+                    <p class="h4">Colored Bordar Spinners :</p>
+                    <div class="spinner-border text-dark m-3"></div>
+                    <div class="spinner-border text-warning m-3"></div>
+                    <div class="spinner-border text-success m-3"></div>
+                </div>
+                <div class="col bg-danger rounded-5 p-4">
+                    <p class="h4">Bordar Spinner Size :</p>
+                    <div class="spinner-border spinner-border-sm m-4"></div>
+                    <div class="spinner-border spinner-border-lg m-4"></div>
+                </div>
+                <div class="col bg-danger rounded-5 p-4">
+                    <p class="h4">Bordar Spinner Buttons :</p>
+                    <button class="btn btn-dark mt-3">
+                        <span class="spinner-border spinner-border-sm"></span> loading...
+                    </button>
+                    <button class="btn btn-dark mt-3" disabled>
+                        <span class="spinner-border spinner-border-sm"></span> loading...
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row gap-2">
+                <div class="col bg-danger rounded-5 p-4">
+                    <p class="h4 text-light">Growing Spinners :</p>
+                    <div class="spinner-grow m-4"></div>
+                </div>
+                <div class="col bg-danger rounded-5 p-4">
+                    <p class="h4 text-light">Colored Growing Spinners :</p>
+                    <div class="spinner-grow text-info m-3"></div>
+                    <div class="spinner-grow text-warning m-3"></div>
+                    <div class="spinner-grow text-success m-3"></div>
+                </div>
+                <div class="col bg-danger rounded-5 p-4">
+                    <p class="h4 text-light">Growing Spinners Size :</p>
+                    <div class="spinner-grow spinner-grow-sm  m-4"></div>
+                    <div class="spinner-grow spinner-grow-lg m-4"></div>
+                </div>
+                <div class="col bg-danger rounded-5 p-4">
+                    <p class="h4 text-light">Growing Spinners Buttons :</p>
+                    <button class="btn btn-dark mt-3">
+                        <span class="spinner-grow spinner-grow-sm"></span> loading...
+                    </button>
+                    <button class="btn btn-dark mt-3" disabled>
+                        <span class="spinner-grow spinner-grow-sm"></span> loading...
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-black bg-opacity-50 p-4">
+        <h1 class="text-center text-black p-3">Pagination :</h1>
+        <div class="bg-dark mt-2 p-4 rounded-3">
+            <p class="h4 text-center text-light">  Basic pagination PAGE :</p>
+            <ul class="pagination justify-content-center mt-4">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+        <div class="bg-dark mt-2 p-4 rounded-3">
+            <p class="h4 text-center text-light">Basic pagination with ACTIVE PAGE :</p>
+            <ul class="pagination justify-content-center mt-4">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+        <div class="bg-dark mt-2 p-4 rounded-3">
+            <p class="h4 text-center text-light">Basic pagination with Disabled PAGE :</p>
+            <ul class="pagination justify-content-center mt-4">
+                <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-black bg-opacity-75 p-4 mt-2">
+        <h1 class="text-center text-light p-3">List Groups :</h1>
+        <div class="bg-dark mt-2 p-4 rounded-3">
+            <p class="h4 text-center text-light">Basic List Groups with an active State :</p>
+            <ul class="list-group mt-4">
+                <li class="list-group-item active">Active item</li>
+                <li class="list-group-item">Second item</li>
+                <li class="list-group-item">Third item</li>
+            </ul>
+        </div>
+
+        <div class="bg-dark mt-4 p-4 rounded-3">
+            <p class="h4 text-center text-light">Basic List Groups with disabled State :</p>
+            <ul class="list-group mt-4">
+                <li class="list-group-item">Active item</li>
+                <li class="list-group-item disabled">Second item</li>
+                <li class="list-group-item disabled">Third item</li>
+            </ul>
+        </div>
+
+        <div class="bg-dark mt-4 p-4 rounded-3">
+            <p class="h4 text-center text-light">Basic List Groups with an active and disabled State :</p>
+            <ul class="list-group mt-4">
+                <li class="list-group-item active">Active item</li>
+                <li class="list-group-item">Second item</li>
+                <li class="list-group-item">Third item</li>
+            </ul>
+        </div>
+
+        <div class="bg-dark mt-4 p-4 rounded-3">
+            <p class="h4 text-center text-light">Basic List Group With Linked Items :</p>
+            <div class="list-group">
+                <a href="#" class="list-group-item active list-group-item-action">First action item</a>
+                <a href="#" class="list-group-item list-group-item-action">First item</a>
+                <a href="#" class="list-group-item list-group-item-action">Second item</a>
+                <a href="#" class="list-group-item list-group-item-action">Third item</a>
+            </div>
+        </div>
+
+        <div class="bg-dark mt-4 p-4 rounded-3">
+            <p class="h4 text-center text-light">Basic List Group Flush / Remove Borders :</p>
+            <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item active list-group-item-action">First action item</a>
+                <a href="#" class="list-group-item list-group-item-action">First item</a>
+                <a href="#" class="list-group-item list-group-item-action">Second item</a>
+                <a href="#" class="list-group-item list-group-item-action">Third item</a>
+            </div>
+        </div>
+
+        <div class="bg-dark mt-4 p-4 rounded-3">
+            <p class="h4 text-center text-light">Basic List Group horizontal :</p>
+            <div class="list-group list-group-horizontal">
+                <a href="#" class="list-group-item active list-group-item-action">First action item</a>
+                <a href="#" class="list-group-item list-group-item-action">First item</a>
+                <a href="#" class="list-group-item list-group-item-action">Second item</a>
+                <a href="#" class="list-group-item list-group-item-action">Third item</a>
+            </div>
+        </div>
+
+        <div class="bg-dark mt-4 p-4 rounded-3">
+            <p class="h4 text-center text-light p-2">Numbered List Groups and also use Contextual Classes :</p>
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item list-group-item-danger">item</li>
+                <li class="list-group-item list-group-item-light">item</li>
+                <li class="list-group-item list-group-item-info">item</li>
+                <li class="list-group-item list-group-item-warning">item</li>
+                <li class="list-group-item list-group-item-primary">item</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
