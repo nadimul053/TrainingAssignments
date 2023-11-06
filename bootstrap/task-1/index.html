@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark  navbar-dark">
+
+        <nav class="navbar navbar-expand-sm p-0 bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand ml" href="#">
+                <img src="logo.jpg" alt="logo" style="width: 50px" class="rounded-2">
+              </a>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" target="_blank" href="https://www.w3schools.com/html/default.asp">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" target="_blank" href="https://www.w3schools.com/css/default.asp">CSS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" target="_blank" href="https://www.w3schools.com/js/default.asp">JAVA Script</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" target="_blank" href="#"> Bootstrap</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" target="_blank" href="https://www.w3schools.com/bootstrap/default.asp">Bootstrap-3</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://www.w3schools.com/bootstrap4/default.asp">Bootstrap-4</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://www.w3schools.com/bootstrap5/index.php">Bootstrap-5</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="file:///G:/Projects/1st.project/index.html">Project</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button id="nav-btn" class="btn btn-outline-light" type="button">Search</button>
+          </form>
+        </div>
+    </nav>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+            <img src="carousel_pic/gojooo.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Carousel / Slideshow</h3>
+                    <p>We had such a great time in LA!</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="carousel_pic/horror.png" alt="Chicago" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Carousel / Slideshow</h3>
+                    <p>Thank you, Chicago!</p>
+                </div> 
+            </div>
+
+            <div class="carousel-item">
+                <img src="carousel_pic/satoru-gojo-4k-11.jpeg" alt="New York" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Carousel / Slideshow</h>
+                    <p>We love the Big Apple!</p>
+                </div>  
+            </div>
+        </div>
+  
+       <!-- Left and right controls/icons -->
+       <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon"></span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+           <span class="carousel-control-next-icon"></span>
+       </button>
+
+    </div>
+
+
+    <div class="container mt-5 overflow-scroll rounded-5" style="height: 600px">
+        <h1 class="text-center">Gallery</h1>
+        <div class="row mt-5 gap-5">
+            <div class="col">
+                <div class="card" style="width: 250px">
+                    <img class="card-img-top" src="vector.jpg" alt="" style="width:100%">
+                    <div class="card-body m-0">
+                        <a href="file:///G:/github/TrainingAssignments/bootstrap/task-1/img-details/index.html" target="_blank" class="btn btn-dark">See Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 250px">
+                    <img class="card-img-top" src="img2.jpg" alt="" style="width:100%">
+                    <div class="card-body">
+                        <a href="file:///G:/github/TrainingAssignments/bootstrap/task-1/img-details%20-%20Copy/index.html" target="_blank" class="btn btn-warning opacity-75 text-black">See Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 250px">
+                    <img class="card-img-top" src="img3.jpg" alt="" style="width:100%">
+                    <div class="card-body">
+                        <a href="file:///G:/github/TrainingAssignments/bootstrap/task-1/img-details%20-%20Copy%20(2)/index.html" target="_blank" class="btn btn-primary">See Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 250px">
+                    <img class="card-img-top" src="images (3).jpg" alt="" style="width:100%">
+                    <div class="card-body">
+                        <a href="file:///G:/github/TrainingAssignments/bootstrap/task-1/img-details%20-%20Copy%20(4)/index.html" class="btn btn-dark">See Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 250px">
+                    <img class="card-img-top" src="images (1).jpg" alt="" style="width:100%">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-dark">See Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 250px">
+                    <img class="card-img-top" src="images (2).jpg" alt="" style="width:100%">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-dark">See Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 250px">
+                    <img class="card-img-top" src="young-man-anime-style-character-260nw-2320306049.webp" alt="" style="width:100%">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary">See Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 250px">
+                    <img class="card-img-top" src="images (4).jpg" alt="" style="width:100%">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-dark mt-3">See Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 250px">
+                    <img class="card-img-top" src="logo.jpg" alt="" style="width:100%">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary">See Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+        <!-- footer -->
+
+
+    <footer class="bg-dark text-center text-white mt-5">
+        <div class="container p-4 pb-0">
+            <section class="">
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up</strong>
+                            </p>
+                        </div>
+            
+                        <div class="col-md-5 col-12">
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <label class="form-label" for="form5Example2">Email address</label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                <strong>Confirm</strong>  
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+        </div>
+    
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            @ 2023 Copyright:
+            <a class="text-white" target="_blank" href="file:///G:/projects%202/code/index.html"> <kbd>Project.com</kbd></a>
+        </div>
+    </footer>
+        
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+     
+    <h1 class="text-center mt-4"> <kbd>Cards</kbd></h1>
+
+    <div class="container bg-dark mt-5">
+        <div class="row">
+          <div class="col"> 
+            <h3 class="text-light">Basic card with header and footer :</h3>
+            <div class="card">
+            <div class="card-header bg-info">Header</div>
+                <div class="card-body">Content</div>
+                <div class="card-footer bg-success">Footer</div>
+            </div>           
+          </div>
+          <div class="col">
+            <h3 class="text-light">Basic card with Titles, text, and links :</h3>
+            <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Lorem ipsum dolor sit </p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">others link</a>
+                  <a href="#" class="card-link">others link</a>
+                </div>
+            </div>
+            </div>
+           <div class="col">
+                <h3 class="text-light">Card Images :</h3> 
+                
+                <div class="card float-end mt-4" style="width:178px">
+                    <div class="card-body">
+                    <h4 class="card-title">Jane Doe</h4>
+                    <p class="card-text">Lorem ipsum dolor sit  asperiores atque ais magni recae vel! Ipsa,</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                    <img class="card-img-bottom" src="star.png" alt="Card image" style="width:100%">
+                </div>
+                
+                <div class="card float-start mt-4" style="width:178px">
+                    <img class="card-img-top" src="star.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetuing elit. Saepe asperi</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <p class="h2 text-center text-uppercase"> <kbd>Dropdown</kbd></p>
+        <div class="row gap-2">
+            <div class="col bg-success p-4">
+                <p class="h4">Basic Dropdown with Divider :</p>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                      <li><a class="dropdown-item" href="#">Link 2</a></li>
+                      <li><a class="dropdown-item" href="#">Link 3</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col bg-primary   p-4 ">
+                <p class="h4  rounded-4 text-center p-1">Basic Dropdown with Disable and Active items :</p>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                      <li><a class="dropdown-item active" href="#">Link 2</a></li>
+                      <li><a class="dropdown-item disabled" href="#">Link 3</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col bg-info p-4">
+                <p class="h4"> Basic Dropdown position right and left :</p>
+                <div class="dropdown dropend">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                      <li><a class="dropdown-item active" href="#">Link 2</a></li>
+                      <li><a class="dropdown-item disabled" href="#">Link 3</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another link</a></li>
+                    </ul>
+                </div>
+                <br>
+                <div class="dropdown dropstart">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                      <li><a class="dropdown-item active" href="#">Link 2</a></li>
+                      <li><a class="dropdown-item disabled" href="#">Link 3</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

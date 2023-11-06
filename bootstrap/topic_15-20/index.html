@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+    
+      <nav class="navbar navbar-expand-sm bg-dark  navbar-dark">
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Bootstrap    </a>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <!-- Active -->
+            <li class="nav-item">
+              <a class="nav-link active" href="file:///G:/github/TrainingAssignments/bootstrap/topic_7-8/index.html">link 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="file:///G:/github/TrainingAssignments/bootstrap/Topic_9-12/index.html">Link 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Link 3</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">Link 3</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link</a></li>
+                <li><a class="dropdown-item" href="#">Another link</a></li>
+                <li><a class="dropdown-item" href="#">A third link</a></li>
+              </ul>
+            </li>
+            <!-- Disabled -->
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">link 4</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-danger" type="button">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <!--         Carousel / Slideshow         -->
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+          <div class="carousel-caption">
+            <h3>Carousel / Slideshow</h3>
+            <p>We had such a great time in LA!</p>
+          </div>
+        </div>
+      <div class="carousel-item">
+        <img src="chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Carousel / Slideshow</h3>
+          <p>Thank you, Chicago!</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="ny.jpg" alt="New York" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Carousel / Slideshow</h>
+          <p>We love the Big Apple!</p>
+        </div>  
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+    <div class="container">
+        <h1 class="text-center"><kbd>Collapse</kbd></h1>
+    </div>
+
+    <div class="container-fluid bg-dark rounded-4 p-4">
+        <h3 class="text-light">Basic collapse with button :</h3>
+        <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#demo">Collapsible</button>
+
+        <div id="demo" class="collapse text-light">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores ipsum sed ut ipsa illum laboriosam, id labore dolorem quo voluptates! Necessitatibus est consequatur velit nemo ducimus, veniam quam molestias exercitationem.
+        </div>
+        <br><br><br>
+        <button type="button" class="btn btn-danger" data-bs-toggle="collapse" data-bs-target="#demo1">Collapsible show</button>
+
+        <div id="demo1" class="collapse show text-light">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint totam iste deserunt provident error earum officia? Sed magni ipsum quisquam repellat placeat voluptas officiis, perspiciatis libero laborum temporibus, minima impedit.
+        </div>
+    </div>
+
+    <div class="container p-5 mt-5">
+        <h3 class="text- link-light">collapse with Accordion :</h3>
+
+        <div id="accordion">
+
+            <div class="card mt-4">
+              <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                  Collapsible Item 1
+                </a>
+              </div>
+              <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste dignissimos dolor dolorem. Quia labore quis saepe veritatis eum vero a laudantium, numquam quas, quos, animi minima nostrum quod aliquam!
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                  Collapsible Item 2
+                </a>
+              </div>
+              <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quisquam eligendi aspernatur cupiditate eum illum accusantium! Officiis amet earum, fugit nulla officia voluptatibus tempora ex iste consequatur pariatur aut eos?
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                  Collapsible Item 3
+                </a>
+              </div>
+              <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, provident tenetur sequi porro maxime expedita sapiente tempore, voluptates nihil necessitatibus at doloribus quo perspiciatis excepturi libero deserunt odio ipsum dicta?
+                </div>
+              </div>
+            </div>      
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <h1 class="text-light ">Modals</h1>
+
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#myModal">
+        Open modal
+        </button>
+      
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+      
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+      
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem magnam molestiae pariatur, sit ea voluptatibus odio, natus, in quo aut non repudiandae. Earum exercitationem ad, nihil dolorum hic cupiditate itaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptates architecto quaerat autem sit cum odio nulla, vero culpa perferendis molestiae temporibus nihil a ducimus ratione nam quae? Eveniet, illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates labore nihil eligendi, esse dignissimos, non minus sapiente dolorum magnam eaque laboriosam consectetur ex id sequi incidunt voluptas. Possimus, accusantium sed! lorem 155 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum numquam dolor minima voluptate nulla est ea mollitia a animi tenetur repellat porro voluptatibus recusandae id facere, necessitatibus obcaecati. Porro exercitationem, magni ut possimus qui inventore velit sapiente esse eius, nisi animi. Quos repudiandae neque maiores. Modi iure nostrum officia accusamus ipsa iste voluptates magnam sequi, laborum facere earum porro placeat ex eveniet aliquid quas minima debitis animi nemo quidem, fuga ea numquam consectetur. Excepturi itaque quaerat, quos, a consequuntur asperiores, quas obcaecati optio consectetur alias explicabo tempora vitae quidem magni corrupti. Earum, eos voluptatibus animi dolores ipsum adipisci quos recusandae molestiae quas numquam, necessitatibus velit maxime eius beatae repellat consectetur temporibus voluptates voluptate? Veniam harum suscipit voluptatibus beatae deserunt voluptates repudiandae unde. Similique quas perferendis magni iure, unde quasi? Saepe magnam vitae ipsum aliquid quisquam libero consequatur, distinctio incidunt iusto? Nisi corrupti itaque tenetur amet sequi, maiores eveniet fuga officia harum quis facere quas obcaecati eius vel delectus? Magni adipisci vero laborum assumenda similique laboriosam odio possimus sunt dolore velit quis numquam sapiente labore rem dignissimos iure, vitae quibusdam iusto aut quo consequuntur animi quaerat nam? Dolore pariatur, ipsam aperiam sed hic ex repellendus adipisci dolor illo iure dignissimos neque?
+                    </div>
+      
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+      
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="d-flex flex-wrap align-content-start bg-light" style="height:300px">
+        <div class="p-2 border">Flex item 1</div>
+        <div class="p-2 border">Flex item 2</div>
+        <div class="p-2 border">Flex item 3</div>
+        <div class="p-2 border">Flex item 4</div>
+        <div class="p-2 border">Flex item 5</div>
+        <div class="p-2 border">Flex item 6</div>
+        <div class="p-2 border">Flex item 7</div>
+        <div class="p-2 border">Flex item 8</div>
+        <div class="p-2 border">Flex item 9</div>
+        <div class="p-2 border">Flex item 10</div>
+        <div class="p-2 border">Flex item 11</div>
+        <div class="p-2 border">Flex item 12</div>
+        <div class="p-2 border">Flex item 13 </div>
+        <div class="p-2 border">Flex item 14</div>
+        <div class="p-2 border">Flex item 15</div>
+        <div class="p-2 border">Flex item 16</div>
+        <div class="p-2 border">Flex item 17</div>
+        <div class="p-2 border">Flex item 18</div>
+        <div class="p-2 border">Flex item 19</div>
+        <div class="p-2 border">Flex item 20</div>
+        <div class="p-2 border">Flex item 21</div>
+        <div class="p-2 border">Flex item 22</div>
+        <div class="p-2 border">Flex item 23</div>
+        <div class="p-2 border">Flex item 24</div>
+        <div class="p-2 border">Flex item 25</div>
+      </div>
+      <br>
+      <p>.align-content-end:</p>
+      <div class="d-flex flex-wrap align-content-end bg-light" style="height:300px">
+        <div class="p-2 border">Flex item 1</div>
+        <div class="p-2 border">Flex item 2</div>
+        <div class="p-2 border">Flex item 3</div>
+        <div class="p-2 border">Flex item 4</div>
+        <div class="p-2 border">Flex item 5</div>
+        <div class="p-2 border">Flex item 6</div>
+        <div class="p-2 border">Flex item 7</div>
+        <div class="p-2 border">Flex item 8</div>
+        <div class="p-2 border">Flex item 9</div>
+        <div class="p-2 border">Flex item 10</div>
+        <div class="p-2 border">Flex item 11</div>
+        <div class="p-2 border">Flex item 12</div>
+        <div class="p-2 border">Flex item 13 </div>
+        <div class="p-2 border">Flex item 14</div>
+        <div class="p-2 border">Flex item 15</div>
+        <div class="p-2 border">Flex item 16</div>
+        <div class="p-2 border">Flex item 17</div>
+        <div class="p-2 border">Flex item 18</div>
+        <div class="p-2 border">Flex item 19</div>
+        <div class="p-2 border">Flex item 20</div>
+        <div class="p-2 border">Flex item 21</div>
+        <div class="p-2 border">Flex item 22</div>
+        <div class="p-2 border">Flex item 23</div>
+        <div class="p-2 border">Flex item 24</div>
+        <div class="p-2 border">Flex item 25</div>
+      </div>
+      <br>
+      <p>.align-content-center:</p>
+      <div class="d-flex flex-wrap align-content-center bg-light" style="height:300px">
+        <div class="p-2 border">Flex item 1</div>
+        <div class="p-2 border">Flex item 2</div>
+        <div class="p-2 border">Flex item 3</div>
+        <div class="p-2 border">Flex item 4</div>
+        <div class="p-2 border">Flex item 5</div>
+        <div class="p-2 border">Flex item 6</div>
+        <div class="p-2 border">Flex item 7</div>
+        <div class="p-2 border">Flex item 8</div>
+        <div class="p-2 border">Flex item 9</div>
+        <div class="p-2 border">Flex item 10</div>
+        <div class="p-2 border">Flex item 11</div>
+        <div class="p-2 border">Flex item 12</div>
+        <div class="p-2 border">Flex item 13 </div>
+        <div class="p-2 border">Flex item 14</div>
+        <div class="p-2 border">Flex item 15</div>
+        <div class="p-2 border">Flex item 16</div>
+        <div class="p-2 border">Flex item 17</div>
+        <div class="p-2 border">Flex item 18</div>
+        <div class="p-2 border">Flex item 19</div>
+        <div class="p-2 border">Flex item 20</div>
+        <div class="p-2 border">Flex item 21</div>
+        <div class="p-2 border">Flex item 22</div>
+        <div class="p-2 border">Flex item 23</div>
+        <div class="p-2 border">Flex item 24</div>
+        <div class="p-2 border">Flex item 25</div>
+      </div>
+      <br>
+      <p>.align-content-around:</p>
+      <div class="d-flex flex-wrap align-content-around bg-light" style="height:300px">
+        <div class="p-2 border">Flex item 1</div>
+        <div class="p-2 border">Flex item 2</div>
+        <div class="p-2 border">Flex item 3</div>
+        <div class="p-2 border">Flex item 4</div>
+        <div class="p-2 border">Flex item 5</div>
+        <div class="p-2 border">Flex item 6</div>
+        <div class="p-2 border">Flex item 7</div>
+        <div class="p-2 border">Flex item 8</div>
+        <div class="p-2 border">Flex item 9</div>
+        <div class="p-2 border">Flex item 10</div>
+        <div class="p-2 border">Flex item 11</div>
+        <div class="p-2 border">Flex item 12</div>
+        <div class="p-2 border">Flex item 13 </div>
+        <div class="p-2 border">Flex item 14</div>
+        <div class="p-2 border">Flex item 15</div>
+        <div class="p-2 border">Flex item 16</div>
+        <div class="p-2 border">Flex item 17</div>
+        <div class="p-2 border">Flex item 18</div>
+        <div class="p-2 border">Flex item 19</div>
+        <div class="p-2 border">Flex item 20</div>
+        <div class="p-2 border">Flex item 21</div>
+        <div class="p-2 border">Flex item 22</div>
+        <div class="p-2 border">Flex item 23</div>
+        <div class="p-2 border">Flex item 24</div>
+        <div class="p-2 border">Flex item 25</div>
+      </div>
+      <br>
+      <p>.align-content-stretch:</p>
+      <div class="d-flex flex-wrap align-content-stretch bg-light" style="height:300px">
+        <div class="p-2 border">Flex item 1</div>
+        <div class="p-2 border">Flex item 2</div>
+        <div class="p-2 border">Flex item 3</div>
+        <div class="p-2 border">Flex item 4</div>
+        <div class="p-2 border">Flex item 5</div>
+        <div class="p-2 border">Flex item 6</div>
+        <div class="p-2 border">Flex item 7</div>
+        <div class="p-2 border">Flex item 8</div>
+        <div class="p-2 border">Flex item 9</div>
+        <div class="p-2 border">Flex item 10</div>
+        <div class="p-2 border">Flex item 11</div>
+        <div class="p-2 border">Flex item 12</div>
+        <div class="p-2 border">Flex item 13 </div>
+        <div class="p-2 border">Flex item 14</div>
+        <div class="p-2 border">Flex item 15</div>
+        <div class="p-2 border">Flex item 16</div>
+        <div class="p-2 border">Flex item 17</div>
+        <div class="p-2 border">Flex item 18</div>
+        <div class="p-2 border">Flex item 19</div>
+        <div class="p-2 border">Flex item 20</div>
+        <div class="p-2 border">Flex item 21</div>
+        <div class="p-2 border">Flex item 22</div>
+        <div class="p-2 border">Flex item 23</div>
+        <div class="p-2 border">Flex item 24</div>
+        <div class="p-2 border">Flex item 25</div>
+      </div>
+      <br>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
