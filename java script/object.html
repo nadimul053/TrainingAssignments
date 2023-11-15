@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        const car = {
+            //object properties
+            name: "BMW",
+            model: 8787,
+            weight: "925kg",
+            color: "black",
+
+            //object function
+
+            start: function () {
+                this.Drive();
+                console.log("car has started");
+            },
+            Drive: function () {
+                console.log("car is driving");
+            },
+            break: function () {
+                console.log("car has started");
+            },
+        };
+
+        console.log(car.model);
+
+        console.log(car['color']);
+
+        car.start();    
+
+        function myFunction (5,5){
+            console.log(a,b)
+            return this(a*b)
+        }
+
+    </script>
+</body>
+</html>

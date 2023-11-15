@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <p id="demo"></p>
+
+    <script>
+        let answer1 = "It's alright";
+        let answer2 = "He is called 'Johnny'";
+        let answer3 = 'He is called "Johnny"'; 
+
+        document.getElementById("demo").innerHTML =
+        answer1 + "<br>" + answer2 + "<br>" + answer3; 
+
+        //Lenght
+        let text = "ABCDEFGHIJKL RSTUVWXYZ";
+        console.log(text.length);
+
+        let text1 = "We are the so-called \"Vikings\" from the north.";
+        console.log(text1);
+
+        //Backspace
+        let text2 = "designed to \b control typewriters,teletypes, and fax machines.";
+        console.log(text2);
+
+        //Form Feed
+        let text3 = "designed to \f control typewriters,teletypes, and fax machines.";
+        console.log(text3);
+
+        //New Line
+        let text4 = "designed to \n control typewriters,teletypes,\n and fax machines.";
+        console.log(text4);
+
+        //Carriage Return
+        let text5 = "designed to \r control typewriters,teletypes, and fax machines.";
+        console.log(text5);
+
+        //Horizontal Tabulator
+        let text6 = "designed to \t control typewriters,teletypes, and fax machines.";
+        console.log(text6);
+
+        //Vertical Tabulator
+        let text7 = "designed to \v control typewriters,teletypes, and fax machines.";
+        console.log(text7);
+
+        //Breaking Long Code Lines
+
+        let text8 = "designed to control typewriters \
+        teletypes, and fax machines.";
+        
+        console.log(text8);
+
+        let text9 = "designed to control typewriters" +
+        "teletypes, and fax machines asfqwe.";
+        console.log(text9);
+
+        let x = "zone";
+        let y = new String("zone");
+        let i = 10;
+        let h = "10";
+        
+        console.log(typeof x);
+        console.log(typeof y);
+
+        //check equal value
+        console.log(i==h);
+        //check equal types
+        console.log(i===h);
+
+        //JavaScript objects cannot be compared
+        let x1 = new String("zone");
+        let y1 = new String("zone");
+
+        console.log(x1===y1);
+
+        
+    </script>
+
+</body>
+</html>

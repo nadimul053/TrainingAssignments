@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        const cars = ["Saab", "Volvo", "BMW"];
+        cars[0] = "Opel";
+        cars[6] = "apple";
+        cars[4] = "apple";
+        console.log(cars[3]); 
+        console.log("length = ",cars.length); 
+        console.log("to string = ",cars.toString());
+
+
+        const person = {firstName:"John", lastName:"Doe", age:46};
+        console.log(person.firstName);
+
+        //Accessing the Last Array Element
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        console.log(fruits.length);
+        console.log(fruits[fruits.length - 1]);
+        
+        const fruit = ["Banana", "Orange", "Apple", "Mango"];
+
+         for (n = 0; n <4; n++) {
+             console.log("for = ",fruit[n]);
+         }
+
+        function myFunction(value) {
+            console.log("forEach = ",value);
+        }
+        fruit.forEach(myFunction);
+
+
+        const fruitss = ["Banana", "Orange", "Apple"];
+
+
+        var txt = 312;
+
+        console.log(txt);
+
+        var txt = 315;
+
+
+
+        
+    </script>
+</body>
+</html>
